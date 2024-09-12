@@ -42,7 +42,7 @@ const Profile = () => {
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Full Name : </p>
-                  <p className="text-gray-500">{"code with zosh"} </p>
+                  <p className="text-gray-500">{"Abhilash S"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Date Of Birth : </p>
@@ -50,25 +50,25 @@ const Profile = () => {
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Nationality : </p>
-                  <p className="text-gray-500">{"indian"} </p>
+                  <p className="text-gray-500">{"Indian"} </p>
                 </div>
               </div>
               <div className="space-y-7">
                 <div className="flex">
                   <p className="w-[9rem]">Address : </p>
-                  <p className="text-gray-500">{"code with zosh"} </p>
+                  <p className="text-gray-500">{"Address"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">City : </p>
-                  <p className="text-gray-500">{"mumbai"} </p>
+                  <p className="text-gray-500">{"Ujire"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Postcode : </p>
-                  <p className="text-gray-500">{345020} </p>
+                  <p className="text-gray-500">{574240} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Country : </p>
-                  <p className="text-gray-500">{"india"} </p>
+                  <p className="text-gray-500">{"India"} </p>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Profile = () => {
         <Card className="w-full">
             <CardHeader className="pb-7">
               <div className="flex items-center gap-3">
-                <CardTitle>2 Step Verification</CardTitle>
+                <CardTitle>Two Step Verification</CardTitle>
 
                 {auth.user.twoFactorAuth?.enabled ? (
                   <Badge className="space-x-2 text-white bg-green-600">
