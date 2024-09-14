@@ -59,7 +59,7 @@ console.log("---------- ",auth.error)
         {/* <Avatar>
           <AvatarImage src="https://cdn.pixabay.com/photo/2019/04/15/20/42/bitcoin-4130299_1280.png"/>
           <AvatarFallback>BTC</AvatarFallback>
-        </Avatar> */}
+         */}
 
         {location.pathname == "/signup" ? (
           <section
